@@ -7,7 +7,11 @@ This simple project process an input video/stream and detect predefined classes 
 ## Usage
 
 ### To read and write back out to video:
-python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input *inputFilePath* --output *outputFilePath*
+```console
+> python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input inputFilePath --output outputFilePath
+```
 
 ### To read from webcam and write back out to disk:
- python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --output *outputFilePath*
+```console
+> python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --output outputFilePath
+```
